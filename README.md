@@ -1,2 +1,2 @@
 # Burgao
-sistema empresaria de um restaurante artesanal fake
+sistema empresarial de um restaurante artesanal fake
