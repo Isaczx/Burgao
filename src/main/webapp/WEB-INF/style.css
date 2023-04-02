@@ -1,0 +1,133 @@
+:root{
+    --Primaria : #FDEEDC;
+    --Secundaria: #F1A661;
+    --Terciaria:#E38B29;
+    --Quartenaria:#FFD8A9;
+    --fontPincipal: 'Mynerve', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+body{
+    background-color:var(--Primaria);
+    width: 100%;
+    font-family: var(--fontPincipal);
+    display: flex;
+    
+
+  
+}
+
+.navegação{
+    width: 20%;
+    height: 100vh;
+    background-color: var(--Terciaria);
+    color: var(--Primaria);
+}
+
+.usuario{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Imagem-usuario{
+    width: 135px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+
+.Home{
+    width: 80%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    gap: 5%;
+}
+
+.Trabalhos_pedidos{
+    width: 80%;
+    height: 50px;
+    background-color: var(--Terciaria);
+}
+
+
+.Conteudo{
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerdo{
+    background-color: var(--Secundaria);
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    
+   
+    
+}
+
+p{
+    color: var(--Primaria);
+   
+}
+
+h1{
+    color: var(--Secundaria);
+    font-weight: bold;
+}
+
+.logo{
+    width: 50%;
+    border-radius: 100%;
+    position: relative;
+   
+}
+
+.direito{
+    color:var(--Terciaria) ;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    row-gap: 5px;
+}
+
+form{
+	 color:var(--Terciaria) ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    row-gap: 5px;
+    
+}
+
+#usuario, #senha{
+    width: 30%;
+    align-items: center;
+    height: 1.5rem;
+}
+
+button{
+    width: 7rem;
+    height: 1.5rem;
+    background-color: var(--Quartenaria);
+    color: var(--Terciaria);
+    font-weight: bold;
+    cursor: pointer;
+    font-family: var(--fontPincipal);
+
+}
+
+button:hover{
+    color: var(--Primaria);
+    
+}
